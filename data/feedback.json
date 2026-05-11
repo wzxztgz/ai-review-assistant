@@ -1,0 +1,46 @@
+[
+  {
+    "id": "3e7d8c85-56d0-418c-9347-a274732401fe",
+    "analysisId": "report_1778215529483",
+    "rating": 3,
+    "category": "usefulness",
+    "comment": "",
+    "suggestions": "",
+    "fileInfo": null,
+    "createdAt": "2026-05-08T04:45:47.918Z",
+    "requestId": "req_1778215547918_en3dh67wt"
+  },
+  {
+    "id": "8af3d9b4-cb15-45f1-9ac2-6736b05af99b",
+    "analysisId": "report_1778216422104",
+    "rating": 5,
+    "category": "usefulness",
+    "comment": "",
+    "suggestions": "",
+    "fileInfo": null,
+    "createdAt": "2026-05-08T05:03:02.417Z",
+    "requestId": "req_1778216582416_kugmaykwu"
+  },
+  {
+    "id": "b357dad7-13a4-47a6-bf75-ca6923eb8529",
+    "analysisId": "report_1778489284640",
+    "rating": 5,
+    "category": "usefulness",
+    "comment": "",
+    "suggestions": "",
+    "fileInfo": null,
+    "createdAt": "2026-05-11T08:48:58.130Z",
+    "requestId": "req_1778489338130_rwwhm6vob"
+  },
+  {
+    "id": "b4ccf34d-9547-4846-a1bc-5f40dc42782a",
+    "analysisId": "report_1778501309296",
+    "rating": 5,
+    "category": "usefulness",
+    "comment": "",
+    "suggestions": "",
+    "fileInfo": null,
+    "createdAt": "2026-05-11T12:14:00.110Z",
+    "requestId": "req_1778501640110_4qqqv3l6v"
+  }
+]
