@@ -27,14 +27,13 @@ const PORT = process.env.PORT || 3001;
 // ============================================
 
 // CORS 跨域配置
-const corsOptions = {
-  origin: process.env.CORS_ORIGIN || ['http://localhost:5173', 'http://localhost:3000'],
+app.use(cors({
+  origin: true, // 允许所有来源（部署时需要）
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization', 'X-Request-ID'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Request-ID', 'X-Session-Id'],
   credentials: true,
-  maxAge: 86400, // 预检请求缓存24小时
-};
-app.use(cors(corsOptions));
+  maxAge: 86400,
+}));
 
 // JSON 请求体解析
 app.use(express.json({ limit: '50mb' }));
