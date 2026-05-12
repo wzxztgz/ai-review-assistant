@@ -89,7 +89,7 @@ class PdfParserService {
    * 解析PDF文件
    */
   async parsePdf(filePath, options = {}) {
-    const { maxChars = 500000, ocrMode = 'slow' } = options;
+    const { maxChars = 500000, ocrMode = 'fast' } = options;
 
     try {
       const pdfParse = getPdfParse();
@@ -321,7 +321,7 @@ class PdfParserService {
    * @returns {Promise<Array<{originalName: string, text: string, pageCount: number, metadata: object}>>}
    */
   async parseBatch(files, options = {}) {
-    const { ocrMode = 'slow' } = options;
+    const { ocrMode = 'fast' } = options;
     const results = [];
 
     for (const file of files) {

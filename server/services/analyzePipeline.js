@@ -46,7 +46,7 @@ class AnalyzePipeline {
    * @returns {Promise<object>} 分析结果
    */
   async run(files, config = {}) {
-    const { onProgress, requestId, ocrMode = 'slow' } = config;
+    const { onProgress, requestId, ocrMode = 'fast' } = config;
 
     // 共享上下文，在各步骤间传递数据
     const context = {
